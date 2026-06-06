@@ -194,7 +194,7 @@ This tool is built around the **Locard Exchange Principle** — the axiom that e
 ---
 
 ## Author
-Laiba Maqbool 
+Laiba Maqbool, Amna Saif
 
 ## References
 
