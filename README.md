@@ -40,39 +40,6 @@ It also estimates the **Point of Impact (POI)** using the Probabilistic Hough Li
 
 ---
 
-## Project Structure
-
-```
-FractureVision/
-│
-├── data/
-│   ├── train/
-│   │   ├── high_velocity/
-│   │   └── low_velocity/
-│   └── test/
-│       ├── high_velocity/
-│       └── low_velocity/
-│
-├── models/
-│   └── fracturevision_resnet50.h5
-│
-├── src/
-│   ├── preprocess.py        # Preprocessing pipeline
-│   ├── train.py             # Two-phase training script
-│   ├── evaluate.py          # Evaluation & metrics
-│   └── poi_estimation.py    # Point of Impact module
-│
-├── outputs/
-│   ├── confusion_matrix.png
-│   ├── training_curves.png
-│   └── poi_overlay.png
-│
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Installation
 
 ```bash
